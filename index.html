@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="CAPA.png" alt="Profile Picture">
+            <h1>Danilo Donizete</h1>
+            <p>Programador & Desenvolvedor Web</p>
+        </div>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/danilo-donizete-a69929266/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Danilonilo88" target="_blank">GitHub</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/dannilo.br/" target="_blank">Instagram</a>
+        </div>
+    </div>
+    <script src="script.js">
+        // Esse JavaScript é opcional, mas você pode adicionar interatividade aqui se desejar.
+// Exemplo de interatividade: Contador de cliques nos links.
+document.querySelectorAll('.links a').forEach(link => {
+    link.addEventListener('click', () => {
+        alert(`Você clicou em ${link.textContent}`);
+    });
+});
+
+    </script>
+</body>
+</html>
